@@ -80,6 +80,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: #757575;
+    line-height: 24px;
 }
 
 .titleh2 {
@@ -111,12 +112,15 @@ body {
     background-color: #2F303A;
     width: 1600px;
     height: 252px;
-    align-items: center;
+    align-items: flex-start;
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .textos-footer {
     font-size: 14px;
+    line-height: 24px;
     color: white;
     text-decoration: none;
 }
@@ -133,6 +137,11 @@ body {
     gap: 40px;
     width: 1170px;
     height: 122px;
+}
+
+.box-valores li {
+    width: 270px;
+
 }
 
 .box-dedicamos {
@@ -220,8 +229,6 @@ body {
 .redessociales {
     display: flex;
     gap: 10px;
-
-
 }
 
 .redessociales li {
@@ -233,7 +240,6 @@ body {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-
 }
 
 /* PORTAFOLIO */
@@ -287,5 +293,15 @@ body {
 .imagenes-servicios li {
     width: 370px;
     height: 404px;
+    border: #EEEEEE 1px solid;
 }
 
+.parrafo-footer{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14x;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
